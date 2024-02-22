@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="login.css" />
+  <script src="script.js" async></script>
+  <title>Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Bem-Vindo</h1>
+
+    <form action="index.html">
+      <div class="input-container">
+        <input type="text" id="username" required placeholder=" "/>
+        <label for="username">Nome</label>
+      </div>
+      <div class="input-container">
+        <input type="password" id="user-password" required placeholder=" "/>
+        <label for="user-password">Senha</label>
+        <span class="material-icons password-visibility">visibility</span>
+      </div>
+        <button type="submit"> Entrar </button>
+    </form>
+    <hr>
+    <div class="oauth-container">
+      <button>
+        <img src="imgs/Icone Google.png" alt="Google icon">
+        Continuar com o Google
+      </button>
+      <button>
+        <img src="imgs/icone facebook.png" alt="Facebook icon">
+        Continuar com o Facebook
+      </button>
+    </div>
+  </div>
+
+
+</body>
+</html>
